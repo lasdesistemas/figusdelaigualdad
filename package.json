@@ -1,0 +1,22 @@
+{
+  "name": "figusdelaigualdad",
+  "version": "1.0.0",
+  "description": "Figuritas para comparar indicadores de igualdad de género entre los países participantes del Mundial Rusia 2018. Creado por lasdesistemas y Chequeado en el Mundial de la Igualdad organizado por Economia Feminista",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "lasdesistemas",
+  "repository" : { 
+    "type" : "git", 
+    "url" : "https://github.com/lasdesistemas/figusdelaigualdad"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "next": "^6.0.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}
