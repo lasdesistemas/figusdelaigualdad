@@ -1,13 +1,133 @@
 [
     {
-        "nombre": "Argentina",
+        "nombre": "Rusia",
+        "grupo": "A",
+        "esperanza_vida_mujer":"",
+        "voto_femenino":"",
+        "legisladoras": "",
+        "aborto": "",
+        "licencia_mat_pat": "",
+        "matrimonio_igualitario": ""
+    },
+    {
+        "nombre": "Arabia Saudí",
+        "grupo": "A",
+        "esperanza_vida_mujer":"",
+        "voto_femenino":"",
+        "legisladoras": "",
+        "aborto": "",
+        "licencia_mat_pat": "",
+        "matrimonio_igualitario": ""
+    },
+    {
+        "nombre": "Egipto",
+        "grupo": "A",
+        "esperanza_vida_mujer":"",
+        "voto_femenino":"",
+        "legisladoras": "",
+        "aborto": "",
+        "licencia_mat_pat": "",
+        "matrimonio_igualitario": ""
+    },
+    {
+        "nombre": "Uruguay",
+        "grupo": "A",
+        "esperanza_vida_mujer":"",
+        "voto_femenino":"",
+        "legisladoras": "",
+        "aborto": "",
+        "licencia_mat_pat": "",
+        "matrimonio_igualitario": ""
+    },
+    {
+        "nombre": "Marruecos",
+        "grupo": "B",
+        "esperanza_vida_mujer":"",
+        "voto_femenino":"",
+        "legisladoras": "",
+        "aborto": "",
+        "licencia_mat_pat": "",
+        "matrimonio_igualitario": ""
+    },
+    {
+        "nombre": "Irán",
+        "grupo": "B",
+        "esperanza_vida_mujer":"",
+        "voto_femenino":"",
+        "legisladoras": "",
+        "aborto": "",
+        "licencia_mat_pat": "",
+        "matrimonio_igualitario": ""
+    },
+    {
+        "nombre": "España",
+        "grupo": "B",
+        "esperanza_vida_mujer":"",
+        "voto_femenino":"",
+        "legisladoras": "",
+        "aborto": "",
+        "licencia_mat_pat": "",
+        "matrimonio_igualitario": ""
+    },
+    {
+        "nombre": "Portugal",
+        "grupo": "B",
+        "esperanza_vida_mujer":"",
+        "voto_femenino":"",
+        "legisladoras": "",
+        "aborto": "",
+        "licencia_mat_pat": "",
+        "matrimonio_igualitario": ""
+    },
+    {
+        "nombre": "Perú",
+        "grupo": "C",
+        "esperanza_vida_mujer":"",
+        "voto_femenino":"",
+        "legisladoras": "",
+        "aborto": "",
+        "licencia_mat_pat": "",
+        "matrimonio_igualitario": ""
+    },
+    {
+        "nombre": "Australia",
+        "grupo": "C",
+        "esperanza_vida_mujer":"",
+        "voto_femenino":"",
+        "legisladoras": "",
+        "aborto": "",
+        "licencia_mat_pat": "",
+        "matrimonio_igualitario": ""
+    },
+    {
+        "nombre": "Dinamarca",
+        "grupo": "C",
+        "esperanza_vida_mujer":"",
+        "voto_femenino":"",
+        "legisladoras": "",
+        "aborto": "",
+        "licencia_mat_pat": "",
+        "matrimonio_igualitario": ""
+    },
+    {
+        "nombre": "Francia",
+        "grupo": "C",
+        "esperanza_vida_mujer":"",
+        "voto_femenino":"",
+        "legisladoras": "",
+        "aborto": "",
+        "licencia_mat_pat": "",
+        "matrimonio_igualitario": ""
+    },
+    {
+        "nombre": "Croacia",
         "grupo": "D",
-        "esperanza_vida_mujer":"80 años",
-        "voto_femenino":"1947",
-        "legisladoras": "40%",
-        "aborto": "para preservar la salud",
-        "licencia_mat_pat": "90/2 días",
-        "matrimonio_igualitario": "sí (2010)"
+        "esperanza_vida_mujer":"",
+        "voto_femenino":"",
+        "legisladoras": "",
+        "aborto": "",
+        "licencia_mat_pat": "",
+        "matrimonio_igualitario": ""
     },
     {
         "nombre": "Nigeria",
@@ -18,6 +138,186 @@
         "aborto": "para salvar la vida de la mujer o prohibido totalmente",
         "licencia_mat_pat": "84/0 días",
         "matrimonio_igualitario": "no"
-    }
+    },
+    {
+        "nombre": "Argentina",
+        "grupo": "D",
+        "esperanza_vida_mujer":"80 años",
+        "voto_femenino":"1947",
+        "legisladoras": "40%",
+        "aborto": "para preservar la salud",
+        "licencia_mat_pat": "90/2 días",
+        "matrimonio_igualitario": "sí (2010)"
+    },
+    {
+        "nombre": "Islandia",
+        "grupo": "D",
+        "esperanza_vida_mujer":"",
+        "voto_femenino":"",
+        "legisladoras": "",
+        "aborto": "",
+        "licencia_mat_pat": "",
+        "matrimonio_igualitario": ""
+    },
+    {
+        "nombre": "Suiza",
+        "grupo": "E",
+        "esperanza_vida_mujer":"",
+        "voto_femenino":"",
+        "legisladoras": "",
+        "aborto": "",
+        "licencia_mat_pat": "",
+        "matrimonio_igualitario": ""
+    },
+    {
+        "nombre": "Serbia",
+        "grupo": "E",
+        "esperanza_vida_mujer":"",
+        "voto_femenino":"",
+        "legisladoras": "",
+        "aborto": "",
+        "licencia_mat_pat": "",
+        "matrimonio_igualitario": ""
+    },
+    {
+        "nombre": "Costa Rica",
+        "grupo": "E",
+        "esperanza_vida_mujer":"",
+        "voto_femenino":"",
+        "legisladoras": "",
+        "aborto": "",
+        "licencia_mat_pat": "",
+        "matrimonio_igualitario": ""
+    },
+    {
+        "nombre": "Brasil",
+        "grupo": "E",
+        "esperanza_vida_mujer":"",
+        "voto_femenino":"",
+        "legisladoras": "",
+        "aborto": "",
+        "licencia_mat_pat": "",
+        "matrimonio_igualitario": ""
+    },
+    {
+        "nombre": "México",
+        "grupo": "F",
+        "esperanza_vida_mujer":"",
+        "voto_femenino":"",
+        "legisladoras": "",
+        "aborto": "",
+        "licencia_mat_pat": "",
+        "matrimonio_igualitario": ""
+    },
+    {
+        "nombre": "Alemania",
+        "grupo": "F",
+        "esperanza_vida_mujer":"",
+        "voto_femenino":"",
+        "legisladoras": "",
+        "aborto": "",
+        "licencia_mat_pat": "",
+        "matrimonio_igualitario": ""
+    },
+    {
+        "nombre": "Corea del Sur",
+        "grupo": "F",
+        "esperanza_vida_mujer":"",
+        "voto_femenino":"",
+        "legisladoras": "",
+        "aborto": "",
+        "licencia_mat_pat": "",
+        "matrimonio_igualitario": ""
+    },
+    {
+        "nombre": "Suecia",
+        "grupo": "F",
+        "esperanza_vida_mujer":"",
+        "voto_femenino":"",
+        "legisladoras": "",
+        "aborto": "",
+        "licencia_mat_pat": "",
+        "matrimonio_igualitario": ""
+    },
+    {
+        "nombre": "Panamá",
+        "grupo": "G",
+        "esperanza_vida_mujer":"",
+        "voto_femenino":"",
+        "legisladoras": "",
+        "aborto": "",
+        "licencia_mat_pat": "",
+        "matrimonio_igualitario": ""
+    },
+    {
+        "nombre": "Túnez",
+        "grupo": "G",
+        "esperanza_vida_mujer":"",
+        "voto_femenino":"",
+        "legisladoras": "",
+        "aborto": "",
+        "licencia_mat_pat": "",
+        "matrimonio_igualitario": ""
+    },
+    {
+        "nombre": "Bélgica",
+        "grupo": "G",
+        "esperanza_vida_mujer":"",
+        "voto_femenino":"",
+        "legisladoras": "",
+        "aborto": "",
+        "licencia_mat_pat": "",
+        "matrimonio_igualitario": ""
+    },
+    {
+        "nombre": "Inglaterra",
+        "grupo": "G",
+        "esperanza_vida_mujer":"",
+        "voto_femenino":"",
+        "legisladoras": "",
+        "aborto": "",
+        "licencia_mat_pat": "",
+        "matrimonio_igualitario": ""
+    },
+    {
+        "nombre": "Japón",
+        "grupo": "H",
+        "esperanza_vida_mujer":"",
+        "voto_femenino":"",
+        "legisladoras": "",
+        "aborto": "",
+        "licencia_mat_pat": "",
+        "matrimonio_igualitario": ""
+    },
+    {
+        "nombre": "Polonia",
+        "grupo": "H",
+        "esperanza_vida_mujer":"",
+        "voto_femenino":"",
+        "legisladoras": "",
+        "aborto": "",
+        "licencia_mat_pat": "",
+        "matrimonio_igualitario": ""
+    },
+    {
+        "nombre": "Senegal",
+        "grupo": "H",
+        "esperanza_vida_mujer":"",
+        "voto_femenino":"",
+        "legisladoras": "",
+        "aborto": "",
+        "licencia_mat_pat": "",
+        "matrimonio_igualitario": ""
+    },
+    {
+        "nombre": "Colombia",
+        "grupo": "H",
+        "esperanza_vida_mujer":"",
+        "voto_femenino":"",
+        "legisladoras": "",
+        "aborto": "",
+        "licencia_mat_pat": "",
+        "matrimonio_igualitario": ""
+    }   
 ]
 
