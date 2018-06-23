@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 export default () => (
   <div className='figu-container'>
     <div className='figu-header'>
@@ -38,7 +39,7 @@ export default () => (
     <div className='figu-footer'>
       <img src='' alt='Chequeado' />
       <img src='' alt='Mundial de la Igualdad' />
-      <img src='' alt='Las de Sistemas' />
+      <img src='../static/assets/logo_lasdesistemas_300_TRANSPARENTE.png' width='100px' alt='[LAS] de sistemas' />
     </div>
   </div>
 )
