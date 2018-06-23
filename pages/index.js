@@ -7,7 +7,7 @@ export default class extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      pais: {value: 0, label: "Argentina"}
+      
     }
     this.seleccionarPais = this.seleccionarPais.bind(this)
   }
@@ -32,8 +32,10 @@ export default class extends React.Component {
           onChange={this.seleccionarPais}
           value={paisDefault}
         />
-          
-        <Figu id={this.state.pais.value}/>
+        {
+          this.state.pais &&
+          <Figu id={this.state.pais.value}/>
+        }
       </div>
       )
   }
