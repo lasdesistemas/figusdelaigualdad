@@ -8,6 +8,16 @@
         "aborto": "para preservar la salud",
         "licencia_mat_pat": "90/2 días",
         "matrimonio_igualitario": "sí (2010)"
+    },
+    {
+        "nombre": "Nigeria",
+        "grupo": "D",
+        "esperanza_vida_mujer":"54 años",
+        "voto_femenino":"1958",
+        "legisladoras": "6%",
+        "aborto": "para salvar la vida de la mujer o prohibido totalmente",
+        "licencia_mat_pat": "84/0 días",
+        "matrimonio_igualitario": "no"
     }
 ]
 

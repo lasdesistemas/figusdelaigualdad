@@ -1,9 +1,17 @@
 import Head from '../components/head'
-import Figu from '../components/figu'
+import SelectorFigu from '../components/selector_figu'
 
-export default () => (
-  <div>
-    <Head />
-    <Figu id="0"/>
-  </div>
-)
+export default class extends React.Component {
+
+  render() {
+   
+    return (
+      <div>
+        <Head />
+        <SelectorFigu />
+        <SelectorFigu />
+      </div>
+    )
+
+  }
+}
