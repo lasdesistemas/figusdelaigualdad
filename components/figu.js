@@ -13,12 +13,12 @@ export default (props) => (
                 <Flag
                   name= {data_paises[props.id].key}
                   format="png"
-                  pngSize={64}
-                  shiny={true}
+                  pngSize={640}
+                  shiny={false}
                   className="flag"
                   alt="Bandera"
-                  width= '20%'
-                  height='20%'
+                  width= '25%'
+                  height='25%'
                   basePath= "/static/assets/img/flags"
                 />
         </div>
