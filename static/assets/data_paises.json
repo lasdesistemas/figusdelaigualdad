@@ -1,12 +1,12 @@
 [
   {
-    "nombre": "Egipto",
+    "nombre": "Rusia",
     "grupo": "A",
-    "esperanza_vida_mujer": "74",
-    "voto_femenino": "1956",
-    "legisladoras": "15%",
-    "aborto": "Para salvar la vida de la mujer o prohibido totalmente.",
-    "licencia_mat_pat": "90",
+    "esperanza_vida_mujer": "77",
+    "voto_femenino": "1918",
+    "legisladoras": "16%",
+    "aborto": "Sin restricciones en cuanto a la razón.",
+    "licencia_mat_pat": "140",
     "matrimonio_igualitario": "No"
   },
   {
@@ -20,13 +20,13 @@
     "matrimonio_igualitario": "No"
   },
   {
-    "nombre": "Rusia",
+    "nombre": "Egipto",
     "grupo": "A",
-    "esperanza_vida_mujer": "77",
-    "voto_femenino": "1918",
-    "legisladoras": "16%",
-    "aborto": "Sin restricciones en cuanto a la razón.",
-    "licencia_mat_pat": "140",
+    "esperanza_vida_mujer": "74",
+    "voto_femenino": "1956",
+    "legisladoras": "15%",
+    "aborto": "Para salvar la vida de la mujer o prohibido totalmente.",
+    "licencia_mat_pat": "90",
     "matrimonio_igualitario": "No"
   },
   {
@@ -60,16 +60,6 @@
     "matrimonio_igualitario": "No"
   },
   {
-    "nombre": "Portugal",
-    "grupo": "B",
-    "esperanza_vida_mujer": "85",
-    "voto_femenino": "1931",
-    "legisladoras": "35%",
-    "aborto": "Sin restricciones en cuanto a la razón.",
-    "licencia_mat_pat": "150",
-    "matrimonio_igualitario": "Sí"
-  },
-  {
     "nombre": "España",
     "grupo": "B",
     "esperanza_vida_mujer": "86",
@@ -77,6 +67,16 @@
     "legisladoras": "39%",
     "aborto": "Sin restricciones en cuanto a la razón.",
     "licencia_mat_pat": "112",
+    "matrimonio_igualitario": "Sí"
+  },
+  {
+    "nombre": "Portugal",
+    "grupo": "B",
+    "esperanza_vida_mujer": "85",
+    "voto_femenino": "1931",
+    "legisladoras": "35%",
+    "aborto": "Sin restricciones en cuanto a la razón.",
+    "licencia_mat_pat": "150",
     "matrimonio_igualitario": "Sí"
   },
   {
@@ -90,21 +90,21 @@
     "matrimonio_igualitario": "No"
   },
   {
-    "nombre": "Dinamarca",
-    "grupo": "C",
-    "esperanza_vida_mujer": "83",
-    "voto_femenino": "1915",
-    "legisladoras": "37%",
-    "aborto": "Sin restricciones en cuanto a la razón.",
-    "licencia_mat_pat": "126",
-    "matrimonio_igualitario": "Sí"
-  },
-  {
     "nombre": "Australia",
     "grupo": "C",
     "esperanza_vida_mujer": "85",
     "voto_femenino": "1902",
     "legisladoras": "33%",
+    "aborto": "Sin restricciones en cuanto a la razón.",
+    "licencia_mat_pat": "126",
+    "matrimonio_igualitario": "Sí"
+  },
+  {
+    "nombre": "Dinamarca",
+    "grupo": "C",
+    "esperanza_vida_mujer": "83",
+    "voto_femenino": "1915",
+    "legisladoras": "37%",
     "aborto": "Sin restricciones en cuanto a la razón.",
     "licencia_mat_pat": "126",
     "matrimonio_igualitario": "Sí"
@@ -118,6 +118,16 @@
     "aborto": "Sin restricciones en cuanto a la razón.",
     "licencia_mat_pat": "112",
     "matrimonio_igualitario": "Sí"
+  },
+  {
+    "nombre": "Croacia",
+    "grupo": "D",
+    "esperanza_vida_mujer": "80",
+    "voto_femenino": "1945",
+    "legisladoras": "20%",
+    "aborto": "Sin restricciones en cuanto a la razón.",
+    "licencia_mat_pat": "410",
+    "matrimonio_igualitario": "Ni (unión civil)"
   },
   {
     "nombre": "Nigeria",
@@ -140,16 +150,6 @@
     "matrimonio_igualitario": "Sí"
   },
   {
-    "nombre": "Croacia",
-    "grupo": "D",
-    "esperanza_vida_mujer": "80",
-    "voto_femenino": "1945",
-    "legisladoras": "20%",
-    "aborto": "Sin restricciones en cuanto a la razón.",
-    "licencia_mat_pat": "410",
-    "matrimonio_igualitario": "Ni (unión civil)"
-  },
-  {
     "nombre": "Islandia",
     "grupo": "D",
     "esperanza_vida_mujer": "85",
@@ -158,6 +158,16 @@
     "aborto": "Por razones socioeconómicas.",
     "licencia_mat_pat": "90",
     "matrimonio_igualitario": "Sí"
+  },
+  {
+    "nombre": "Suiza",
+    "grupo": "E",
+    "esperanza_vida_mujer": "85",
+    "voto_femenino": "1971",
+    "legisladoras": "29%",
+    "aborto": "Sin restricciones en cuanto a la razón.",
+    "licencia_mat_pat": "98",
+    "matrimonio_igualitario": "Ni (unión civil)"
   },
   {
     "nombre": "Serbia",
@@ -170,16 +180,6 @@
     "matrimonio_igualitario": "No"
   },
   {
-    "nombre": "Brasil",
-    "grupo": "E",
-    "esperanza_vida_mujer": "79",
-    "voto_femenino": "1932",
-    "legisladoras": "11%",
-    "aborto": "Para salvar la vida de la mujer o prohibido totalmente.",
-    "licencia_mat_pat": "120",
-    "matrimonio_igualitario": "Sí"
-  },
-  {
     "nombre": "Costa Rica",
     "grupo": "E",
     "esperanza_vida_mujer": "82",
@@ -190,14 +190,14 @@
     "matrimonio_igualitario": "No "
   },
   {
-    "nombre": "Suiza",
+    "nombre": "Brasil",
     "grupo": "E",
-    "esperanza_vida_mujer": "85",
-    "voto_femenino": "1971",
-    "legisladoras": "29%",
-    "aborto": "Sin restricciones en cuanto a la razón.",
-    "licencia_mat_pat": "98",
-    "matrimonio_igualitario": "Ni (unión civil)"
+    "esperanza_vida_mujer": "79",
+    "voto_femenino": "1932",
+    "legisladoras": "11%",
+    "aborto": "Para salvar la vida de la mujer o prohibido totalmente.",
+    "licencia_mat_pat": "120",
+    "matrimonio_igualitario": "Sí"
   },
   {
     "nombre": "México",
@@ -220,6 +220,16 @@
     "matrimonio_igualitario": "Sí"
   },
   {
+    "nombre": "Corea del Sur",
+    "grupo": "F",
+    "esperanza_vida_mujer": "86",
+    "voto_femenino": "1948",
+    "legisladoras": "17%",
+    "aborto": "Para preservar la salud.",
+    "licencia_mat_pat": "90",
+    "matrimonio_igualitario": "No"
+  },
+  {
     "nombre": "Suecia",
     "grupo": "F",
     "esperanza_vida_mujer": "85",
@@ -230,13 +240,13 @@
     "matrimonio_igualitario": "Sí"
   },
   {
-    "nombre": "Corea del Sur",
-    "grupo": "F",
-    "esperanza_vida_mujer": "86",
-    "voto_femenino": "1948",
-    "legisladoras": "17%",
-    "aborto": "Para preservar la salud.",
-    "licencia_mat_pat": "90",
+    "nombre": "Panamá",
+    "grupo": "G",
+    "esperanza_vida_mujer": "81",
+    "voto_femenino": "1941",
+    "legisladoras": "18%",
+    "aborto": "Para salvar la vida de la mujer o prohibido totalmente.",
+    "licencia_mat_pat": "98",
     "matrimonio_igualitario": "No"
   },
   {
@@ -250,14 +260,14 @@
     "matrimonio_igualitario": "No"
   },
   {
-    "nombre": "Panamá",
+    "nombre": "Bélgica",
     "grupo": "G",
-    "esperanza_vida_mujer": "81",
-    "voto_femenino": "1941",
-    "legisladoras": "18%",
-    "aborto": "Para salvar la vida de la mujer o prohibido totalmente.",
-    "licencia_mat_pat": "98",
-    "matrimonio_igualitario": "No"
+    "esperanza_vida_mujer": "84",
+    "voto_femenino": "1919",
+    "legisladoras": "41%",
+    "aborto": "Sin restricciones en cuanto a la razón.",
+    "licencia_mat_pat": "105",
+    "matrimonio_igualitario": "Sí"
   },
   {
     "nombre": "Inglaterra",
@@ -270,14 +280,24 @@
     "matrimonio_igualitario": "Sí"
   },
   {
-    "nombre": "Bélgica",
-    "grupo": "G",
-    "esperanza_vida_mujer": "84",
-    "voto_femenino": "1919",
-    "legisladoras": "41%",
-    "aborto": "Sin restricciones en cuanto a la razón.",
-    "licencia_mat_pat": "105",
-    "matrimonio_igualitario": "Sí"
+    "nombre": "Japón",
+    "grupo": "H",
+    "esperanza_vida_mujer": "87",
+    "voto_femenino": "1945",
+    "legisladoras": "13%",
+    "aborto": "Por razones socioeconómicas.",
+    "licencia_mat_pat": "98",
+    "matrimonio_igualitario": "Ni (unión civil en algunas zonas)"
+  },
+  {
+    "nombre": "Polonia",
+    "grupo": "H",
+    "esperanza_vida_mujer": "82",
+    "voto_femenino": "1918",
+    "legisladoras": "26%",
+    "aborto": "Para preservar la salud.",
+    "licencia_mat_pat": "182",
+    "matrimonio_igualitario": "No"
   },
   {
     "nombre": "Senegal",
@@ -298,25 +318,5 @@
     "aborto": "Para preservar la salud.",
     "licencia_mat_pat": "98",
     "matrimonio_igualitario": "Sí"
-  },
-  {
-    "nombre": "Polonia",
-    "grupo": "H",
-    "esperanza_vida_mujer": "82",
-    "voto_femenino": "1918",
-    "legisladoras": "26%",
-    "aborto": "Para preservar la salud.",
-    "licencia_mat_pat": "182",
-    "matrimonio_igualitario": "No"
-  },
-  {
-    "nombre": "Japón",
-    "grupo": "H",
-    "esperanza_vida_mujer": "87",
-    "voto_femenino": "1945",
-    "legisladoras": "13%",
-    "aborto": "Por razones socioeconómicas.",
-    "licencia_mat_pat": "98",
-    "matrimonio_igualitario": "Ni (unión civil en algunas zonas)"
   }
 ]
