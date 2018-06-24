@@ -55,38 +55,134 @@ const sheetsMap = [
 ];
 
 const countries = [
-  'Rusia',
-  'Arabia Saudí',
-  'Egipto',
-  'Uruguay',
-  'Marruecos',
-  'Irán',
-  'España',
-  'Portugal',
-  'Perú',
-  'Australia',
-  'Dinamarca',
-  'Francia',
-  'Croacia',
-  'Nigeria',
-  'Argentina',
-  'Islandia',
-  'Suiza',
-  'Serbia',
-  'Costa Rica',
-  'Brasil',
-  'México',
-  'Alemania',
-  'Corea del Sur',
-  'Suecia',
-  'Panamá',
-  'Túnez',
-  'Bélgica',
-  'Inglaterra',
-  'Japón',
-  'Polonia',
-  'Senegal',
-  'Colombia'
+  {
+    name: 'Rusia',
+    key: 'RU'
+  },
+  {
+    name: 'Arabia Saudí',
+    key: 'SA'
+  },
+  {
+    name: 'Egipto',
+    key: 'EG'
+  },
+  {
+    name: 'Uruguay',
+    key: 'UY'
+  },
+  {
+    name: 'Marruecos',
+    key: 'MA'
+  },
+  {
+    name: 'Irán',
+    key: 'IR'
+  },
+  {
+    name: 'España',
+    key: 'ES'
+  },
+  {
+    name: 'Portugal',
+    key: 'PT'
+  },
+  {
+    name: 'Perú',
+    key: 'PE'
+  },
+  {
+    name: 'Australia',
+    key: 'AU'
+  },
+  {
+    name: 'Dinamarca',
+    key: 'DK'
+  },
+  {
+    name: 'Francia',
+    key: 'FR'
+  },
+  {
+    name: 'Croacia',
+    key: 'HR'
+  },
+  {
+    name: 'Nigeria',
+    key: 'NG'
+  },
+  {
+    name: 'Argentina',
+    key: 'AR'
+  },
+  {
+    name: 'Islandia',
+    key: 'IS'
+  },
+  {
+    name: 'Suiza',
+    key: 'CH'
+  },
+  {
+    name: 'Serbia',
+    key: 'RS'
+  },
+  {
+    name: 'Costa Rica',
+    key: 'CR'
+  },
+  {
+    name: 'Brasil',
+    key: 'BR'
+  },
+  {
+    name: 'México',
+    key: 'MX'
+  },
+  {
+    name: 'Alemania',
+    key: 'DE'
+  },
+  {
+    name: 'Corea del Sur',
+    key: 'KR',
+  },
+  {
+    name: 'Suecia',
+    key: 'SW'
+  },
+  {
+    name: 'Panamá',
+    key: 'PA'
+  },
+  {
+    name: 'Túnez',
+    key: 'TN'
+  },
+  {
+    name: 'Bélgica',
+    key: 'BE'
+  },
+  {
+    name: 'Inglaterra',
+    key: 'EN'
+  },
+  {
+    name: 'Japón',
+    key: 'JP'
+  },
+  {
+    name: 'Polonia',
+    key: 'PL'
+  },
+  {
+    name: 'Senegal',
+    key: 'SN'
+  },
+  {
+    name: 'Colombia',
+    key: 'CO'
+  }
 ];
 
 
@@ -101,7 +197,8 @@ const infoTemplate = {
 };
 
 let expandedInfo = countries.map((country) => ({
-  nombre: country,
+  nombre: country.name,
+  key: country.key,
  ...infoTemplate
 }));
 
