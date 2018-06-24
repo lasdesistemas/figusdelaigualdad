@@ -19,6 +19,7 @@
     "react": "^16.4.1",
     "react-autocomplete": "^1.8.1",
     "react-dom": "^16.4.1",
-    "react-dropdown": "^1.5.0"
+    "react-dropdown": "^1.5.0",
+    "react-flags": "^0.1.13"
   }
 }
