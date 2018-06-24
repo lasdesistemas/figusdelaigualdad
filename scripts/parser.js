@@ -1,3 +1,6 @@
+// Note: read this to user the script https://developers.google.com/sheets/api/quickstart/nodejs
+// The app needs to be authrozied on google and the credentials need to be downloaded.
+
 const fs = require('fs');
 const api = require('./reader.js');
 
