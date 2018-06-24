@@ -55,38 +55,38 @@ const sheetsMap = [
 ];
 
 const countries = [
-  'Egipto',
-  'Arabia Saudí',
   'Rusia',
+  'Arabia Saudí',
+  'Egipto',
   'Uruguay',
   'Marruecos',
   'Irán',
-  'Portugal',
   'España',
+  'Portugal',
   'Perú',
-  'Dinamarca',
   'Australia',
+  'Dinamarca',
   'Francia',
+  'Croacia',
   'Nigeria',
   'Argentina',
-  'Croacia',
   'Islandia',
-  'Serbia',
-  'Brasil',
-  'Costa Rica',
   'Suiza',
+  'Serbia',
+  'Costa Rica',
+  'Brasil',
   'México',
   'Alemania',
-  'Suecia',
   'Corea del Sur',
-  'Túnez',
+  'Suecia',
   'Panamá',
-  'Inglaterra',
+  'Túnez',
   'Bélgica',
-  'Senegal',
-  'Colombia',
+  'Inglaterra',
+  'Japón',
   'Polonia',
-  'Japón'
+  'Senegal',
+  'Colombia'
 ];
 
 
@@ -134,6 +134,6 @@ Promise.all(sheetsMap.map(asyncExpandRows))
   .then(res => {
 
     fs.writeFile(file, JSON.stringify(res.pop(), null, 2), 'utf-8', () => {
-      console.log('written');
+      console.log(`written to ${file}`);
     });
   });
