@@ -20,7 +20,6 @@
     "react-autocomplete": "^1.8.1",
     "react-dom": "^16.4.1",
     "react-dropdown": "^1.5.0",
-    "react-flags": "^0.1.13",
-    "i18n-iso-countries": "^3.6.3"
+    "react-flags": "^0.1.13"
   }
 }
