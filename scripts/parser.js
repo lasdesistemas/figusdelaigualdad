@@ -44,9 +44,9 @@ const sheetsMap = [
   {
     key: 'licencia_mat_pat',
     title: 'Licencia por maternidad/paternidad',
-    range: 'B2:C999',
+    range: 'B2:D999',
     countryRow: 0,
-    valueRow: 1
+    valueRow: [1, 2]
   },
   {
     key: 'matrimonio_igualitario',
@@ -205,8 +205,6 @@ let expandedInfo = countries.map((country) => ({
  ...infoTemplate
 }));
 
-//console.log(expandedInfo);
-
 function asyncExpandRows (filters) {
   return new Promise((resolve, reject) => {
     api.getSingleSheet(filters)
@@ -216,9 +214,14 @@ function asyncExpandRows (filters) {
           let index =  expandedInfo.findIndex((elem) => row[filters.countryRow] === elem.nombre);
 
           if (index !== -1) {
+
+            const val = (Array.isArray(filters.valueRow))
+              ? filters.valueRow.map(col => row[col]).join('/')
+              : row[filters.valueRow]
+
             expandedInfo[index] = {
               ...expandedInfo[index],
-              [filters.key]: row[filters.valueRow]
+              [filters.key]: val
             }
           }
         });
