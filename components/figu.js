@@ -5,8 +5,8 @@ import Flag from "react-flags";
 export default (props) => (
   <div className='figu-container'>
     <div className='figu-header'>
-      <span>{data_paises[props.id].grupo}</span>
       <h2>{data_paises[props.id].nombre}</h2>
+      <h3>Grupo {data_paises[props.id].grupo}</h3>
     </div>
     <div className='figu-body'>
         <div>
