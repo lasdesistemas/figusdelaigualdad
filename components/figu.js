@@ -1,6 +1,6 @@
 import React from 'react'
 import data_paises from '../static/assets/data_paises.json'
-
+import Flag from "react-flags";
 
 export default (props) => (
   <div className='figu-container'>
@@ -9,7 +9,20 @@ export default (props) => (
       <h2>{data_paises[props.id].nombre}</h2>
     </div>
     <div className='figu-body'>
-      <img src='' alt='Bandera' />
+        <div>
+                <Flag
+                  name= {data_paises[props.id].key}
+                  format="png"
+                  pngSize={640}
+                  shiny={false}
+                  className="flag"
+                  alt="Bandera"
+                  width= '25%'
+                  height='25%'
+                  basePath= "/static/assets/img/flags"
+                />
+        </div>
+
       <table>
         <tr>
           <td>Esperanza de vida femenina:</td>
@@ -40,7 +53,7 @@ export default (props) => (
     <div className='figu-footer'>
       <img src='' alt='Chequeado' />
       <img src='' alt='Mundial de la Igualdad' />
-      <img src='../static/assets/logo_lasdesistemas_300_TRANSPARENTE.png' width='100px' alt='[LAS] de sistemas' />
+      <img src='../static/assets/img/logos/logo_lasdesistemas_300_TRANSPARENTE.png' width='100px' alt='[LAS] de sistemas' />
     </div>
   </div>
 )

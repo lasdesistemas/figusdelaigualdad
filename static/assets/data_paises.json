@@ -1,6 +1,7 @@
 [
   {
     "nombre": "Rusia",
+    "key": "RU",
     "grupo": "A",
     "esperanza_vida_mujer": "77",
     "voto_femenino": "1918",
@@ -11,6 +12,7 @@
   },
   {
     "nombre": "Arabia Saudí",
+    "key": "SA",
     "grupo": "A",
     "esperanza_vida_mujer": "76",
     "voto_femenino": "2015",
@@ -21,6 +23,7 @@
   },
   {
     "nombre": "Egipto",
+    "key": "EG",
     "grupo": "A",
     "esperanza_vida_mujer": "74",
     "voto_femenino": "1956",
@@ -31,6 +34,7 @@
   },
   {
     "nombre": "Uruguay",
+    "key": "UY",
     "grupo": "A",
     "esperanza_vida_mujer": "81",
     "voto_femenino": "1938",
@@ -41,6 +45,7 @@
   },
   {
     "nombre": "Marruecos",
+    "key": "MA",
     "grupo": "B",
     "esperanza_vida_mujer": "77",
     "voto_femenino": "1963",
@@ -51,6 +56,7 @@
   },
   {
     "nombre": "Irán",
+    "key": "IR",
     "grupo": "B",
     "esperanza_vida_mujer": "77",
     "voto_femenino": "1963",
@@ -61,6 +67,7 @@
   },
   {
     "nombre": "España",
+    "key": "ES",
     "grupo": "B",
     "esperanza_vida_mujer": "86",
     "voto_femenino": "1931",
@@ -71,6 +78,7 @@
   },
   {
     "nombre": "Portugal",
+    "key": "PT",
     "grupo": "B",
     "esperanza_vida_mujer": "85",
     "voto_femenino": "1931",
@@ -81,6 +89,7 @@
   },
   {
     "nombre": "Perú",
+    "key": "PE",
     "grupo": "C",
     "esperanza_vida_mujer": "77",
     "voto_femenino": "1955",
@@ -91,6 +100,7 @@
   },
   {
     "nombre": "Australia",
+    "key": "AU",
     "grupo": "C",
     "esperanza_vida_mujer": "85",
     "voto_femenino": "1902",
@@ -101,6 +111,7 @@
   },
   {
     "nombre": "Dinamarca",
+    "key": "DK",
     "grupo": "C",
     "esperanza_vida_mujer": "83",
     "voto_femenino": "1915",
@@ -111,6 +122,7 @@
   },
   {
     "nombre": "Francia",
+    "key": "FR",
     "grupo": "C",
     "esperanza_vida_mujer": "86",
     "voto_femenino": "1944",
@@ -121,6 +133,7 @@
   },
   {
     "nombre": "Croacia",
+    "key": "HR",
     "grupo": "D",
     "esperanza_vida_mujer": "80",
     "voto_femenino": "1945",
@@ -131,6 +144,7 @@
   },
   {
     "nombre": "Nigeria",
+    "key": "NG",
     "grupo": "D",
     "esperanza_vida_mujer": "54",
     "voto_femenino": "1958",
@@ -141,6 +155,7 @@
   },
   {
     "nombre": "Argentina",
+    "key": "AR",
     "grupo": "D",
     "esperanza_vida_mujer": "80",
     "voto_femenino": "1947",
@@ -151,6 +166,7 @@
   },
   {
     "nombre": "Islandia",
+    "key": "IS",
     "grupo": "D",
     "esperanza_vida_mujer": "85",
     "voto_femenino": "1915",
@@ -161,6 +177,7 @@
   },
   {
     "nombre": "Suiza",
+    "key": "CH",
     "grupo": "E",
     "esperanza_vida_mujer": "85",
     "voto_femenino": "1971",
@@ -171,6 +188,7 @@
   },
   {
     "nombre": "Serbia",
+    "key": "RS",
     "grupo": "E",
     "esperanza_vida_mujer": "78",
     "voto_femenino": "1945",
@@ -181,6 +199,7 @@
   },
   {
     "nombre": "Costa Rica",
+    "key": "CR",
     "grupo": "E",
     "esperanza_vida_mujer": "82",
     "voto_femenino": "1949",
@@ -191,6 +210,7 @@
   },
   {
     "nombre": "Brasil",
+    "key": "BR",
     "grupo": "E",
     "esperanza_vida_mujer": "79",
     "voto_femenino": "1932",
@@ -201,6 +221,7 @@
   },
   {
     "nombre": "México",
+    "key": "MX",
     "grupo": "F",
     "esperanza_vida_mujer": "79",
     "voto_femenino": "1947",
@@ -211,6 +232,7 @@
   },
   {
     "nombre": "Alemania",
+    "key": "DE",
     "grupo": "F",
     "esperanza_vida_mujer": "84",
     "voto_femenino": "1918",
@@ -221,6 +243,7 @@
   },
   {
     "nombre": "Corea del Sur",
+    "key": "KR",
     "grupo": "F",
     "esperanza_vida_mujer": "86",
     "voto_femenino": "1948",
@@ -231,6 +254,7 @@
   },
   {
     "nombre": "Suecia",
+    "key": "SW",
     "grupo": "F",
     "esperanza_vida_mujer": "85",
     "voto_femenino": "1919",
@@ -241,6 +265,7 @@
   },
   {
     "nombre": "Panamá",
+    "key": "PA",
     "grupo": "G",
     "esperanza_vida_mujer": "81",
     "voto_femenino": "1941",
@@ -251,6 +276,7 @@
   },
   {
     "nombre": "Túnez",
+    "key": "TN",
     "grupo": "G",
     "esperanza_vida_mujer": "78",
     "voto_femenino": "1959",
@@ -261,6 +287,7 @@
   },
   {
     "nombre": "Bélgica",
+    "key": "BE",
     "grupo": "G",
     "esperanza_vida_mujer": "84",
     "voto_femenino": "1919",
@@ -271,6 +298,7 @@
   },
   {
     "nombre": "Inglaterra",
+    "key": "EN",
     "grupo": "G",
     "esperanza_vida_mujer": "84",
     "voto_femenino": "1918",
@@ -281,6 +309,7 @@
   },
   {
     "nombre": "Japón",
+    "key": "JP",
     "grupo": "H",
     "esperanza_vida_mujer": "87",
     "voto_femenino": "1945",
@@ -291,6 +320,7 @@
   },
   {
     "nombre": "Polonia",
+    "key": "PL",
     "grupo": "H",
     "esperanza_vida_mujer": "82",
     "voto_femenino": "1918",
@@ -301,6 +331,7 @@
   },
   {
     "nombre": "Senegal",
+    "key": "SN",
     "grupo": "H",
     "esperanza_vida_mujer": "69",
     "voto_femenino": "1945",
@@ -311,6 +342,7 @@
   },
   {
     "nombre": "Colombia",
+    "key": "CO",
     "grupo": "H",
     "esperanza_vida_mujer": "78",
     "voto_femenino": "1954",
