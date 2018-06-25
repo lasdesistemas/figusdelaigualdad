@@ -8,8 +8,10 @@ export default class extends React.Component {
     return (
       <div>
         <Head />
-        <SelectorFigu />
-        <SelectorFigu />
+        <div className="fila">
+          <SelectorFigu />
+          <SelectorFigu />
+        </div>
       </div>
     )
 

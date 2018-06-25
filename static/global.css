@@ -1,0 +1,9 @@
+.fila {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.selector {
+    width: 50%;
+} 

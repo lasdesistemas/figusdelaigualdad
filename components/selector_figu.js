@@ -56,7 +56,7 @@ export default class extends React.Component {
     const paisDefault = this.state.pais 
 
     return (
-      <div>
+      <div className="selector">
         <Dropdown options={paises}
           placeholder="Elegí un país"
           onChange={this.seleccionarPais}

@@ -17,37 +17,38 @@ export default (props) => (
                   shiny={false}
                   className="flag"
                   alt="Bandera"
-                  width= '25%'
-                  height='25%'
+                  width="200"
                   basePath= "/static/assets/img/flags"
                 />
         </div>
 
       <table>
-        <tr>
-          <td>Esperanza de vida femenina:</td>
-          <td>{data_paises[props.id].esperanza_vida_mujer}</td> 
-        </tr>
-        <tr>
-          <td>Año de voto femenino:</td>
-          <td>{data_paises[props.id].voto_femenino}</td> 
-        </tr>
-        <tr>
-          <td>Porcentaje de legisladoras:</td>
-          <td>{data_paises[props.id].legisladoras}</td> 
-        </tr>
-        <tr>
-          <td>Aborto:</td>
-          <td>{data_paises[props.id].aborto}</td> 
-        </tr>
-        <tr>
-          <td>Días de licencia por maternidad/paternidad:</td>
-          <td>{data_paises[props.id].licencia_mat_pat}</td> 
-        </tr>
-        <tr>
-          <td>Matrimonio igualitario:</td>
-          <td>{data_paises[props.id].matrimonio_igualitario}</td> 
-        </tr>
+        <tbody>
+          <tr>
+            <td>Esperanza de vida femenina:</td>
+            <td>{data_paises[props.id].esperanza_vida_mujer}</td> 
+          </tr>
+          <tr>
+            <td>Año de voto femenino:</td>
+            <td>{data_paises[props.id].voto_femenino}</td> 
+          </tr>
+          <tr>
+            <td>Porcentaje de legisladoras:</td>
+            <td>{data_paises[props.id].legisladoras}</td> 
+          </tr>
+          <tr>
+            <td>Aborto:</td>
+            <td>{data_paises[props.id].aborto}</td> 
+          </tr>
+          <tr>
+            <td>Días de licencia por maternidad/paternidad:</td>
+            <td>{data_paises[props.id].licencia_mat_pat}</td> 
+          </tr>
+          <tr>
+            <td>Matrimonio igualitario:</td>
+            <td>{data_paises[props.id].matrimonio_igualitario}</td> 
+          </tr>
+        </tbody>
       </table>
     </div>
     <div className='figu-footer'>
