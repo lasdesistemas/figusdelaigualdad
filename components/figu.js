@@ -19,7 +19,7 @@ export default (props) => (
             shiny={false}
             className="flag"
             alt="Bandera"
-            width={200}
+            width={160}
             basePath= "/static/assets/img/flags" />
         </div>
       <table className='figu-table'>
@@ -52,14 +52,21 @@ export default (props) => (
       </table>
     </div>
     <div className='figu-footer'>
-      <img src='' alt='Chequeado' />
-      <img src='' alt='Mundial de la Igualdad' />
-      <img src='../static/assets/img/logos/logo_lasdesistemas_300_TRANSPARENTE.png' width='100px' alt='[LAS] de sistemas' />
+      <a href='http://chequeado.com/'>
+        <img className='chequeado' src='/static/assets/img/logos/chequeado.jpg' alt='Chequeado' />
+      </a>
+      <a href='https://twitter.com/igualdata'>
+        <img className='igualdata' src='/static/assets/img/logos/igualdata.png' alt='Mundial de la Igualdad' />
+      </a>
+      <a href='https://twitter.com/lasdesistemas'>
+        <img className='lasdesistemas' src='/static/assets/img/logos/lasdesistemas.png' alt='[LAS] de sistemas' />
+      </a>
     </div>
     <style jsx>{`
       .figu-container {
         background-color: #324250;
-        width: 320px;
+        width: 340px;
+        height: 550px;
         border-radius: 30px;
         -webkit-transform: translateZ(0);
         -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
@@ -76,7 +83,8 @@ export default (props) => (
         order: 2;
         text-transform: uppercase;
         margin-left: auto;
-        margin-right: 40px;
+        margin-right: 70px;
+        font-size: 1.4em;
       }
       .figu-header .figu-group {
         width: 0;
@@ -92,7 +100,7 @@ export default (props) => (
         z-index: 100;
         margin-top: -80px;
         margin-left: 20px;
-        font-size: 1.5em;
+        font-size: 1.4em;
       }
       .figu-body {
         background-color: #FFF;
@@ -102,29 +110,45 @@ export default (props) => (
         justify-content: center;
       }
       .figu-body .flag-container {
-        margin: 10px 0;
+        margin: 15px 0 10px;
       }
       .figu-table {
         border-collapse: collapse;
       }
       .figu-table tr {
-        width: 50px;
+        width: 50%;
         font-size: 0.8em;
         font-weight: bold;
       }
       .figu-category {
         color: #324250;
         text-align: right;
-        padding: 10px 10px 10px 0;
+        padding: 5px 10px;
       }
       .figu-data {
         color: #da536f;
         text-align: left;
-        padding: 10px 0 10px 10px;
+        padding: 10px;
       }
       .border-row {
-        z-index: 100;
         border-bottom: 1px solid #da536f;
+      }
+      .figu-footer {
+        background-color: #FFF;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 10px;
+        padding: 10px 5px;
+      }
+      .chequeado {
+        height: 30px;
+      }
+      .igualdata {
+        height: 50px;
+      }
+      .lasdesistemas {
+        height: 50px;
       }
     `}</style>
   </div>
