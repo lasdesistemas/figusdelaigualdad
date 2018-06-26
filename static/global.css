@@ -9,6 +9,7 @@ body {
     flex-direction: row;
     align-items: flex-start;
     height: 100vh;
+    margin-top: 20px;
 }
 
 .selector {
