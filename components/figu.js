@@ -113,6 +113,11 @@ export default (props) => (
       }
       .figu-body .flag-container {
         margin: 15px 0 10px;
+        width: 160px;
+        height: 112px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
       }
       .figu-table {
         border-collapse: collapse;
