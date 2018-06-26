@@ -139,7 +139,7 @@ export default (props) => (
         justify-content: space-between;
         align-items: center;
         margin: 0 10px;
-        padding: 10px 5px;
+        padding: 15px 5px 5px;
       }
       .chequeado {
         height: 30px;
@@ -149,6 +149,7 @@ export default (props) => (
       }
       .lasdesistemas {
         height: 50px;
+        margin-right: 10px;
       }
     `}</style>
   </div>
