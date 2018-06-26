@@ -1,6 +1,7 @@
 import Head from '../components/head'
 import Header from '../components/header'
 import SelectorFigu from '../components/selector_figu'
+import Footer from '../components/footer'
 
 export default class extends React.Component {
   render() {
@@ -15,6 +16,7 @@ export default class extends React.Component {
           </div>
           <SelectorFigu />
         </div>
+        <Footer />
         <style jsx>{`
           .divisor {
             align-self: center;
