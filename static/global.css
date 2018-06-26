@@ -38,6 +38,11 @@ body {
     border-bottom: 1px dotted #CCC;
 }
 
+.figu-dropdown-menu .Dropdown-option:hover {
+    color: #d1495b;
+    font-weight: bold;
+}
+
 .figu-dropdown-placeholder {
     text-decoration: none;
     background: #d1495b;
@@ -48,4 +53,9 @@ body {
     font-weight: bold;
     cursor: pointer;
     width: 120px;
+}
+
+.figu-dropdown-placeholder:after {
+    content: '▾';
+    margin-left: 20px;
 }
