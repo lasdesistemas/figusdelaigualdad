@@ -66,7 +66,7 @@ export default (props) => (
       .figu-container {
         background-color: #324250;
         width: 340px;
-        height: 550px;
+        height: 560px;
         border-radius: 30px;
         -webkit-transform: translateZ(0);
         -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
@@ -108,6 +108,7 @@ export default (props) => (
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        height: 401px;
       }
       .figu-body .flag-container {
         margin: 15px 0 10px;
