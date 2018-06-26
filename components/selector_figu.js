@@ -61,6 +61,10 @@ export default class extends React.Component {
           placeholder="Elegí un país"
           onChange={this.seleccionarPais}
           value={paisDefault}
+          className='figu-dropdown'
+          menuClassName='figu-dropdown-menu'
+          arrowClassName='figu-dropdown-arrow'
+          placeholderClassName='figu-dropdown-placeholder'
         />
         {
           this.state.pais &&

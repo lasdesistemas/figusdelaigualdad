@@ -71,6 +71,7 @@ export default (props) => (
         -webkit-transform: translateZ(0);
         -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
         position: relative;
+        margin-top: 20px;
       }
       .figu-header {
         display: flex;
