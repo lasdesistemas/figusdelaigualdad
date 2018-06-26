@@ -52,13 +52,13 @@ export default (props) => (
       </table>
     </div>
     <div className='figu-footer'>
-      <a href='http://chequeado.com/'>
+      <a href='http://chequeado.com/' target='blank'>
         <img className='chequeado' src='/static/assets/img/logos/chequeado.jpg' alt='Chequeado' />
       </a>
-      <a href='https://twitter.com/igualdata'>
+      <a href='http://www.igualdata.org' target='blank'>
         <img className='igualdata' src='/static/assets/img/logos/igualdata.png' alt='Mundial de la Igualdad' />
       </a>
-      <a href='https://twitter.com/lasdesistemas'>
+      <a href='https://twitter.com/lasdesistemas' target='blank'>
         <img className='lasdesistemas' src='/static/assets/img/logos/lasdesistemas.png' alt='[LAS] de sistemas' />
       </a>
     </div>
