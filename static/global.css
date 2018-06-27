@@ -6,6 +6,7 @@ body {
 .figu-dropdown {
     position: relative;
     z-index: 1000;
+
 }
 
 .figu-dropdown-menu {
@@ -17,6 +18,8 @@ body {
     border: 1px solid #CCC;
     border-top: none;
     margin-left: 15px;
+    overflow-y: scroll;
+    max-height: 200px;
 }
 
 .figu-dropdown-menu .Dropdown-option {
