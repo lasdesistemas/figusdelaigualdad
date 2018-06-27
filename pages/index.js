@@ -1,9 +1,13 @@
+import React, { Component } from 'react'
+import Flickity from 'flickity'
 import Head from '../components/head'
 import Header from '../components/header'
 import SelectorFigu from '../components/selector_figu'
 import Footer from '../components/footer'
 
-export default class extends React.Component {
+export default class extends Component {
+  componentDidMount () {
+  }
   render() {
     return (
       <div>
