@@ -28,6 +28,11 @@ export default class extends React.Component {
             font-size: 26px;
             color: #bd3547;
           }
+          @media (max-width: 767px) {
+            .divisor {
+              display: none;
+            }
+          }
         `}</style>
       </div>
     )
