@@ -6,6 +6,10 @@ import Footer from '../components/footer'
 let Flickity;
 
 export default class extends Component {
+  static async getInitialProps({ query }) {
+    return { query }
+  }
+
   constructor (props) {
     super(props)
     this.flickity = null
@@ -15,6 +19,7 @@ export default class extends Component {
   }
 
   componentDidMount () {
+    console.log(this.props)
     Flickity = require('flickity')
     if (window.innerWidth < 768) {
       this.setState({
@@ -44,19 +49,19 @@ export default class extends Component {
     return (
       <div>
         <Head />
-        { !this.props.url.query.ocultarHeader &&
+        { !this.props.query.ocultarHeader &&
         <Header />
         }
         <div className="fila" ref="carousel">
-          <SelectorFigu idPais={this.props.url.query.pais1}/>
+          <SelectorFigu idPais={this.props.query.pais1}/>
           {!this.state.mobile &&
             <div className="divisor">
               <span>VS</span>
             </div>
           }
-          <SelectorFigu idPais={this.props.url.query.pais2}/>
+          <SelectorFigu idPais={this.props.query.pais2}/>
         </div>
-        { !this.props.url.query.ocultarFooter &&
+        { !this.props.query.ocultarFooter &&
         <Footer />
         }
         <style jsx>{`
