@@ -26,6 +26,12 @@ export default () => (
       a:hover {
         color: #bd3547;
       }
+      @media (max-width: 768px) {
+        .footer p {
+          text-align: center;
+          font-size: 12px;
+        }
+      }
     `}</style>
   </footer>
 )
