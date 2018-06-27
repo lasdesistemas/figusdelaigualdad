@@ -71,6 +71,22 @@ export default class extends React.Component {
           this.state.pais &&
           <Figu id={this.state.pais.value}/>
         }
+        <style jsx>{`
+          .selector {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          @media (max-width: 767px) {
+            .selector {
+              height: 768px;
+              width: 100%;
+              z-index: 10;
+              overflow-y: scroll            
+            }
+          }
+        `}</style>
       </div>
       )
   }

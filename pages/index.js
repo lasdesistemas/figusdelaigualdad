@@ -19,7 +19,24 @@ export default class extends Component {
     if (window.innerWidth < 768) {
       this.setState({
         mobile: true
-      }, () => console.log(this.state))
+      })
+    }
+  }
+
+  componentDidUpdate(){
+    if (this.state.mobile) {
+      const options = {
+        cellCelector: '.selector',
+        pageDots: false,
+        wrapAround: false,
+        cellAlign: 'center',
+        draggable: false,
+        friction: 0.2,
+        contain: true,
+        freeScroll: false,
+        prevNextButtons: true
+      }
+      this.flickity = new Flickity(this.refs.carousel, options)
     }
   }
 
@@ -30,11 +47,13 @@ export default class extends Component {
         { !this.props.url.query.ocultarHeader &&
         <Header />
         }
-        <div className="fila">
+        <div className="fila" ref="carousel">
           <SelectorFigu idPais={this.props.url.query.pais1}/>
-          <div className="divisor">
-            <span>VS</span>
-          </div>
+          {!this.state.mobile &&
+            <div className="divisor">
+              <span>VS</span>
+            </div>
+          }
           <SelectorFigu idPais={this.props.url.query.pais2}/>
         </div>
         { !this.props.url.query.ocultarFooter &&
@@ -57,6 +76,9 @@ export default class extends Component {
             color: #bd3547;
           }
           @media (max-width: 767px) {
+            .fila {
+              display: block;
+            }
             .divisor {
               display: none;
             }
