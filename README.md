@@ -51,3 +51,7 @@ Los ids de país válidos son:
  - {value:29, label:'H-Polonia'},
  - {value:30, label:'H-Senegal'},
  - {value:31, label:'H-Colombia'}
+
+ ### ¿Cómo generar un HTML estático para el deploy?
+Correr el comando `npm run export` y se creará la carpeta `/out` que es la que debés usar para deployar. 
+Podés utilizar [now](https://zeit.co/now) para hacer un deploy para testear. Instalalo corriendo `npm install -g now` y luego, en la carpeta out, corré `now --public`. Now te avisará cuando termine el deploy y generará un link y listo!
