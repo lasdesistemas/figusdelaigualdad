@@ -45,7 +45,6 @@ export default class extends React.Component {
     this.state = {
       pais: paises[this.props.idPais] 
     }
-    console.log(this.state)
     this.seleccionarPais = this.seleccionarPais.bind(this)
   }
 
