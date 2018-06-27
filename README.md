@@ -15,8 +15,8 @@ Se permiten los siguientes parámetros:
 - pais1: se pasa el id del país que se quiera precargar.
 - pais2: se pasa el id del otro país que se quiera precargar.
 
-URL ejemplo precargando los países: http://localhost:3000/?pais1=7&pais2=21
-URL ejemplo ocultando header y footer: http://localhost:3000/?ocultarHeader=true&ocultarFooter=true
+URL ejemplo precargando los países: http://localhost:3000/?pais1=7&pais2=21 </br>
+URL ejemplo ocultando header y footer: http://localhost:3000/?ocultarHeader=true&ocultarFooter=true </br>
 
 Los ids de país válidos son:
   {value:0, label:'A-Rusia'},
