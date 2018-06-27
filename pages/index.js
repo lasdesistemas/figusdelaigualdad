@@ -10,11 +10,11 @@ export default class extends React.Component {
         <Head />
         <Header />
         <div className="fila">
-          <SelectorFigu />
+          <SelectorFigu idPais={this.props.url.query.pais1}/>
           <div className="divisor">
             <span>VS</span>
           </div>
-          <SelectorFigu />
+          <SelectorFigu idPais={this.props.url.query.pais2}/>
         </div>
         <Footer />
         <style jsx>{`
