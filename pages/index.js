@@ -1,13 +1,28 @@
 import React, { Component } from 'react'
-import Flickity from 'flickity'
 import Head from '../components/head'
 import Header from '../components/header'
 import SelectorFigu from '../components/selector_figu'
 import Footer from '../components/footer'
+let Flickity;
 
 export default class extends Component {
-  componentDidMount () {
+  constructor (props) {
+    super(props)
+    this.flickity = null
+    this.state = {
+      mobile: false
+    }
   }
+
+  componentDidMount () {
+    Flickity = require('flickity')
+    if (window.innerWidth < 768) {
+      this.setState({
+        mobile: true
+      }, () => console.log(this.state))
+    }
+  }
+
   render() {
     return (
       <div>
@@ -26,6 +41,15 @@ export default class extends Component {
         <Footer />
         }
         <style jsx>{`
+          .fila {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            height: 700px;
+            margin-top: 20px;
+            margin-bottom: 35px;
+          }
           .divisor {
             align-self: center;
             font-family: 'Press Start 2P', cursive;
