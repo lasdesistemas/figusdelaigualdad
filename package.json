@@ -23,5 +23,8 @@
     "react-dom": "^16.4.1",
     "react-dropdown": "^1.5.0",
     "react-flags": "^0.1.13"
+  },
+  "now": {
+    "alias": "figusdelaigualdad"
   }
 }
