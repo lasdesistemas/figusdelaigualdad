@@ -22,6 +22,14 @@ export default () => (
         color: #292965;
         font-size: 26px;
       }
+      @media (max-width: 768px) {
+        .header {
+          padding: 5px 20px;
+        }
+        .title {
+          font-size: 20px;
+        }
+      }
     `}</style>
   </header>
 )
