@@ -26,7 +26,7 @@ export default (props) => (
         <tbody>
           <tr className='border-row'>
             <td className='figu-category'>Esperanza de vida femenina:</td>
-            <td className='figu-data'>{data_paises[props.id].esperanza_vida_mujer}</td> 
+            <td className='figu-data'>{data_paises[props.id].esperanza_vida_mujer} años</td>
           </tr>
           <tr className='border-row'>
             <td className='figu-category'>Año de voto femenino:</td>
