@@ -8,7 +8,9 @@ export default class extends React.Component {
     return (
       <div>
         <Head />
+        { !this.props.url.query.ocultarHeader &&
         <Header />
+        }
         <div className="fila">
           <SelectorFigu idPais={this.props.url.query.pais1}/>
           <div className="divisor">
@@ -16,7 +18,9 @@ export default class extends React.Component {
           </div>
           <SelectorFigu idPais={this.props.url.query.pais2}/>
         </div>
+        { !this.props.url.query.ocultarFooter &&
         <Footer />
+        }
         <style jsx>{`
           .divisor {
             align-self: center;
